@@ -20,8 +20,6 @@ function Banner() {
       });
   }, []);
 
-  const truncate = (text, max) =>
-    text?.length > max ? text.substring(0, max - 1) + "…" : text;
 
   return (
     <header
